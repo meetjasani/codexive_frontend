@@ -1,0 +1,9 @@
+[
+  "npm i",
+  "npm run build",
+  "cp -R build/* /home/sanjay/public_html/",
+  "rm -rf build",
+  "git add package-lock.json",
+  "git stash",
+  "git stash drop"
+]
